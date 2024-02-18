@@ -1,0 +1,34 @@
+{
+  "name": "@kodasoftware/typescript",
+  "version": "0.0.0",
+  "description": "A typescript styling guide",
+  "engines": {
+    "node": ">=16",
+    "vscode": ">=1.22"
+  },
+  "keywords": [
+    "kodasoftware",
+    "typescript",
+    "styling",
+    "guide"
+  ],
+  "author": "Koda Software <developer@kodasoftware.com>",
+  "license": "MIT",
+  "files": [
+    ".eslintrc.json",
+    ".prettierrc.json",
+    "tsconfig.json"
+  ],
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": ">=7",
+    "@typescript-eslint/parser": ">=7",
+    "eslint": ">=8",
+    "eslint-config-prettier": ">=9",
+    "eslint-plugin-node": ">=11",
+    "eslint-plugin-prettier": ">=5",
+    "eslint-plugin-simple-import-sort": ">=12",
+    "prettier": ">=3",
+    "prettier-eslint": ">=16",
+    "typescript": ">=5"
+  }
+}
