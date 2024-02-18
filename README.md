@@ -57,7 +57,7 @@ This is an example of a typescript configuration you can put into your project t
     "baseUrl": "./",
     "outDir": "dist",
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["src/*"]
     }
     // Add any overrides/extensions here...
   }
